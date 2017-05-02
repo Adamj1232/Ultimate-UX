@@ -6,4 +6,4 @@ Required Content:
 * Calendar of workouts
 
 User Persona
-! (https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/UserPersona_img.jpg)
+![user persona](https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/UserPersona_img.jpg)
