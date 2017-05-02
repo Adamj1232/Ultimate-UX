@@ -15,8 +15,12 @@ Concise way to show the training goals:
 Elegant way to show completed training. By extension this can show planned training as well:
 ![total completed workouts](https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/training-log.png)
 
+Combines calendar with percent goals 
+![calendar and goals](https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/calendar%20and%20goals.png)
+
 ### Wireframes
 ##### Mobile Version
 ![mobile wireframe](https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/wireframe-mobile.jpg)
 
 ##### Desktop Version
+![desktop wireframe]()
