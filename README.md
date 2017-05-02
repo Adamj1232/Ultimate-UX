@@ -21,3 +21,7 @@ Combines calendar with percent goals
 ### Wireframes
 ##### Mobile Version
 ![mobile wireframe](https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/wireframe-mobile.jpg)
+
+##### Desktop Version
+![desktop wireframe](https://github.com/anderswood/Ultimate-UX-Challenge/blob/master/images/wireframe-desktop.jpg)
+
