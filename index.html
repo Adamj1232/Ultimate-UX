@@ -4,50 +4,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="styles.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
   <title>BeachBOD</title>
 </head>
 <body>
-  <header>BeachBOD
-    <nav>
-      <button>Workout</button>
-      <button>Profile</button>
-      <button>Preferences</button>
-      <button>Logout</button>
-      <img src="" alt="profile user picture">
-    </nav>
-  </header>
-  <section>
-    <button>Day</button>
-    <button>Week</button>
-    <button>Month</button>
-    <div>thumbsUpGraph</div>
-    <div>HeartMonitorGraph</div>
+  <section id = 'goddamnit'></section>
+  <section id = 'primary-container'>
+    <header>
+      <h1>BeachBOD</h1>
+      <nav>
+        <button class = 'nav-buttons nav-selected'>Workout</button>
+        <button class = 'nav-buttons nav-unselected'>Profile</button>
+        <button class = 'nav-buttons nav-unselected'>Preferences</button>
+        <button class = 'nav-buttons nav-unselected'>Logout</button>
+        <img src="" alt="profile user picture">
+      </nav>
+      <br>
+    </header>
+    <main>
+      <section id='left-container'>
+        <button class = 'left-button day-button'>Day</button>
+        <button class = 'left-button week-button'>Week</button>
+        <button class = 'left-button month-button'>Month</button>
+        <button class = 'left-button day-button'>Day</button>
+        <button class = 'left-button week-button'>Week</button>
+        <button class = 'left-button month-button'>Month</button>
+      </section>
+      <section id = 'middle-container'>
+        <h4>Workouts</h4>
+        <section id = 'middle-images'>
+          <section id = 'middle-top-images'>
+            <section class = 'middle-crap thumbs-up'>
+              <div>thumbsUpGraph</div>
+              <h5>75%</h5>
+              <h6>300 / 400 lbs</h6>
+            </section>
+            <section class = 'middle-crap heart-monitor'>
+              <div>HeartMonitorGraph</div>
+              <h5>90%</h5>
+              <h6>9 / 10 miles</h6>
+            </section>
+          </section>
+          <section id = 'middle-bottom-crap'>
+            <div>weekday graph</div>
+            <section id = 'middle-container-buttons'>
+              <button class = 'bottom-button'>weights</button>
+              <button class = 'bottom-button'>cardio</button>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section id = 'right-container'>
+        <h4>Activity Feed</h4>
+        <section id = 'right-users'>
+          <section class = 'user-container matt-container'>
+            <img src="" alt="profile">
+            <p>Matt</p>
+            <img src="" alt="heart">
+            <p>10 Miles</p>
+          </section>
+          <section class = 'user-container john-container'>
+            <img src="" alt="profile">
+            <p>John</p>
+            <img src="" alt="heart">
+            <p>350 lbs</p>
+          </section>
+          <section class = 'user-container paul-container'>
+            <img src="" alt="profile">
+            <p>Paul</p>
+            <img src="" alt="heart">
+            <p>10 Miles</p>
+          </section>
+        </section>
+      </section>
+    </main>
   </section>
-  <h4>Workouts</h4>
-  <section>
-    <button>day</button>
-    <button>week</button>
-    <button>month</button>
-    <button>weights</button>
-    <button>cardio</button>
-    <div>weekday graph</div>
-  </section>
-  <h4>Activity Feed</h4>
-  <section>
-    <img src="" alt="profile">
-    <p>Matt</p>
-    <img src="" alt="heart">
-    <p>10 Miles</p>
-    <img src="" alt="profile">
-    <p>John</p>
-    <img src="" alt="heart">
-    <p>350 lbs</p>
-    <img src="" alt="profile">
-    <p>Paul</p>
-    <img src="" alt="heart">
-    <p>10 Miles</p>
-  </section>
-
 </body>
 </html>
