@@ -321,4 +321,15 @@ p {
   .user-container {
     height: 35px;
   }
+
+  .middle {
+    justify-content: center;
+  }
+
+  .middle-crap {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: -webkit-center;
+  }
 }
