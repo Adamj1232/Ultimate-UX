@@ -54,6 +54,11 @@ nav {
   height: 30px;
 }
 
+.middle {
+  display: flex;
+  flex-direction: row;
+}
+
 .nav-selected {
   background-color: #526367;
 }
@@ -196,4 +201,124 @@ p {
   justify-content: center;
   display: flex;
   flex-direction: row;
+}
+
+.mobile-middle-top-images {
+  display: none;
+}
+
+@media screen and (max-width:970px) {
+  h1 {
+    width: 35%;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  nav {
+    width: 65%;
+  }
+
+  p {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .right-icons {
+    margin: 10px 10px;
+  }
+
+  #goddamnit {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width:700px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    text-align: center;
+    height: 10vh;
+  }
+
+  h1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  h5 {
+    font-size: 21px;
+  }
+
+  h6 {
+    font-size: 15px;
+  }
+
+  #left-container {
+    display: none;
+  }
+
+  .mobile-middle-top-images {
+    display: flex
+  }
+
+  #middle-top-images {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+  }
+
+  .left-button {
+    margin: 10px;
+  }
+
+  .middle-icons {
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+  }
+
+  #middle-images {
+    width: 100%
+  }
+
+  #middle-container {
+    width: 90%
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;;
+  }
+
+  #right-container {
+    width: 81%;
+    height: 40%;
+    margin-top: 40px;
+  }
+
+  #middle-bottom-crap {
+    height: 55%;
+  }
+
+  .left-button, .bottom-button {
+    height: 30px;
+  }
+
+  .right-icons {
+    width: 20px;
+    height: 50px;
+  }
+
+  .user-container {
+    height: 35px;
+  }
 }
